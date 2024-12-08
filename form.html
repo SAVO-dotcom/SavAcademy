@@ -16,14 +16,24 @@
         
             <label for="age">Age:</label>
             <input type="number" id="age" name="age" placeholder="Your age in years" required>
+
+            <label for="country">country</label>
+            <input type="text" name="country" id="country" required>
         
-            <label for="time-playing">Time Playing:</label>
-            <input type="text" id="time-playing" name="time" placeholder="Specify in years or months" required>
+            <label for="playing since">Playing Since:</label>
+            <input type="date" id="time-playing" name="time" placeholder="Specify in years or months" required>
         
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            
+            <label for="spam">Want to keep updated?</label>
+            <input type="checkbox" id="spam" name="spam" required>
+
+            <label for="comment">Any comment</label>
+            <input type="text" name="comment" id="comment" placeholder="Give us a comment for us to know">
         
             <button type="submit">Submit</button>
+            <button><a href="index.html">Go back</a></button>
         </form>
         
     </div>
@@ -38,7 +48,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 120vh;
     }
     
     .form-container {
@@ -81,7 +91,8 @@
         border: 1px solid #cccccc;
         border-radius: 4px;
         font-size: 1em;
-        width: 100%;
+        width: 90%;
+
     }
     
     button {
