@@ -154,12 +154,12 @@
 	list-style: none;
 	padding: 0;
 	background-color: aliceblue;
-	width: auto;
+	width: 80%;
 	max-width: 1000px;
 	margin: auto;
 	border-radius: 0.5em;
 	height: 63.95px;
-	;
+	align-items: center;
 }
 
 .sectionmenu button{
@@ -167,6 +167,8 @@
 	text-align: center;
 	color: rgb(27, 166, 173);
 	background-color: rgba(114, 38, 134, 0.437);
+	width: 100%;
+	align-items: center;
 	
 }
 
@@ -178,7 +180,6 @@
 		border-radius: 0.5em;}
 
 .sectionmenu1{
-	float: left;
 	list-style: none;
 	padding: 0;
 	background-color: aliceblue;
@@ -194,7 +195,7 @@
 	display: inline-block;
 	text-align: center;
 	color: rgb(27, 166, 173);
-	background-color: rgba(114, 38, 134, 0.437);
+	background-color: rgba(151, 103, 163, 0.437);
 	
 }
 
@@ -204,4 +205,20 @@
 		padding: 20px;
 		display: inline-block;
 		border-radius: 0.5em;}
-		
+	
+
+
+.form-container {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+}
+
+button:hover {
+	background-color: rgba(145, 68, 164, 0.437);
+	
+}
